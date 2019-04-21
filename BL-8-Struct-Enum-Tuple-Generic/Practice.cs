@@ -120,7 +120,7 @@ namespace BL_8_Struct_Enum_Tuple_Generic
 
             Dictionary<ClassReplaceStruct.Rectangle, int> duplicateListClass = new Dictionary<ClassReplaceStruct.Rectangle, int>();
             List<ClassReplaceStruct.Rectangle> lClass = rectArrClass.ToList();
-
+            
             for (int i = 0; i < rectArrClass.Length; i++)
             {
                 if (!duplicateListClass.Keys.Contains(rectArrClass[i]))
