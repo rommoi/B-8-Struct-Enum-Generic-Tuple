@@ -62,10 +62,11 @@ namespace BL_8_Struct_Enum_Tuple_Generic
         public static void Lb8_P2_3()
         {
             Random rnd = new Random();
-            int _randomLimit = 2;
+            
+            int _randomLimit = 10;
 
-            Rectangle[] rectArr = new Rectangle[10];
-            for (int i = 0; i < 10; i++)
+            Rectangle[] rectArr = new Rectangle[100];
+            for (int i = 0; i < 100; i++)
             {
                 rectArr[i] = new Rectangle(new Point(), rnd.Next(_randomLimit), rnd.Next(_randomLimit));
             }
@@ -105,10 +106,10 @@ namespace BL_8_Struct_Enum_Tuple_Generic
                 Console.WriteLine($"Rectangle: height : {item.height}. width : {item.width}. coordinates : {item.coordinate.x};{item.coordinate.y};{item.coordinate.z}. Duplicates number: {duplicateList[item]}");
             }
             //////////////////
-            Console.WriteLine(new String('|', 50));
+            Console.WriteLine(new String('|', 100));
             //////////////////
-            ClassReplaceStruct.Rectangle[] rectArrClass = new ClassReplaceStruct.Rectangle[10];
-            for (int i = 0; i < 10; i++)
+            ClassReplaceStruct.Rectangle[] rectArrClass = new ClassReplaceStruct.Rectangle[100];
+            for (int i = 0; i < 100; i++)
             {
                 rectArrClass[i] = new ClassReplaceStruct.Rectangle(new ClassReplaceStruct.Point(), rnd.Next(_randomLimit), rnd.Next(_randomLimit));
             }
