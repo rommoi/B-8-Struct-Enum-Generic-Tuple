@@ -42,6 +42,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ClassReplaceStruct\Point.cs" />
+    <Compile Include="ClassReplaceStruct\Rectangle.cs" />
     <Compile Include="Lesson.Ananymous.cs" />
     <Compile Include="Lesson.Nullable.cs" />
     <Compile Include="Lesson.Tuple.cs" />
